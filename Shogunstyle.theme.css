@@ -48,7 +48,9 @@ body, .theme-dark {
 
 /* Chat content background */
 .f75fb00fb7356cbe-chatContent {
-    background-color: rgba(5,0,15,0.85) !important;
+    background-image: 
+        linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3)),
+        var(--shogun-bg);
 }
 
 /* Members group header */
@@ -61,13 +63,11 @@ body, .theme-dark {
 /* Members list background with overlay gradient */
 .c8ffbb79449f399c-members,
 .members {
-    background-image: 
-        linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.1)),
-        var(--shogun-bg);
+    background-color: rgba(180, 80, 180, 0.4) !important;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-color: rgba(0,0,0,0.1) !important;
+
 }
 
 /* Individual member item highlight */
@@ -84,7 +84,7 @@ body, .theme-dark {
 }
 
 ._5d473ecff348c314-offline {
-    opacity: 0.9 !important
+    opacity: 0.4 !important
 }
 
 /* General transparency for app layers */
