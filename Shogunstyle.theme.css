@@ -1,0 +1,111 @@
+/**
+ * @name Shogun Discord Theme
+ * @author Masuta
+ * @description Shogun Raiden UI styled theme for BetterDiscord
+ * @version 1.0.0
+ * @source https://github.com/MasutaK/shogun-discord-theme
+ * @website https://github.com/MasutaK/shogun-discord-theme
+ */
+
+/* Import fonts and base CSS */
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans');
+/* Thanks to patrykbielanin for the base css */
+@import url('https://patrykbielanin.github.io/discord-cyberpunk2077-theme/base.css');
+
+:root {
+    /* Background image for the theme */
+    --shogun-bg: url("https://raw.githubusercontent.com/MasutaK/shogun-discord-theme/main/shogun_discord.png");
+
+    /* Font settings */
+    --font-primary: 'Google Sans';
+    --primary-text-color: #EAD7FF;
+    --font-size: 14px;
+
+    /* Neon color palette (RGB) */
+    --primary: 25, 0, 50;
+    --red: 255, 50, 255;
+    --blue: 120, 80, 255;
+    --yellow: 200, 150, 255;
+    --green: 140, 70, 220;
+    --dark-green: 80, 0, 130;
+
+    /* Avatar styles */
+    --avatar-circle: 0;
+    --avatar-rounded: 5px;
+    --avatar-border: 1px solid rgb(255,50,255);
+}
+
+/* Base font size for Discord */
+body, .theme-dark {
+    font-size: var(--font-size);
+}
+
+/* Top bar and main wrapper background */
+.c38106a3f0c3ca76-bar,
+.ef3116c2da186559-wrapper {
+    background-image: var(--shogun-bg) !important;
+}
+
+/* Chat content background */
+.f75fb00fb7356cbe-chatContent {
+    background-color: rgba(5,0,15,0.85) !important;
+}
+
+/* Members group header */
+.c8ffbb79449f399c-membersGroup {
+    color: white;
+    background-color: rgba(0,0,0,0.1) !important;
+    font-weight: bold;
+}
+
+/* Members list background with overlay gradient */
+.c8ffbb79449f399c-members,
+.members {
+    background-image: 
+        linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.1)),
+        var(--shogun-bg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(0,0,0,0.1) !important;
+}
+
+/* Individual member item highlight */
+.c8ffbb79449f399c-member {
+    background-color: rgba(180, 80, 180, 0.4);
+    color: white;
+    font-opacity: 0.9;
+    margin-bottom: 2px;
+}
+
+/* Subtext color in members list */
+._91a9d7f7e5248a56-subText {
+    color: white;
+}
+
+._5d473ecff348c314-offline {
+    opacity: 0.9 !important
+}
+
+/* General transparency for app layers */
+.appMount-0tRzZC,
+.layerContainer-2v0K6P {
+    background-color: rgba(5,0,20,0.85) !important;
+}
+
+/* Chat input box transparency */
+.textArea-1Spz0e {
+    background-color: rgba(255,255,255,0.1) !important;
+}
+
+/* Neon-style scrollbars */
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-thumb {
+    background: rgba(255,50,255,0.7);
+    border-radius: 4px;
+}
+::-webkit-scrollbar-track {
+    background: rgba(0,0,0,0.2);
+}
