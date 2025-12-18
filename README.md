@@ -1,6 +1,6 @@
 # Shogun Discord Theme
 
-**Version:** 1.1.0  
+**Version:** 1.2.0  
 **Author:** Masuta  
 **Source:** [GitHub](https://github.com/MasutaK/shogun-discord-theme)  
 **Website:** [GitHub](https://github.com/MasutaK/shogun-discord-theme)  
