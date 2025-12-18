@@ -2,7 +2,7 @@
  * @name Shogun Discord Theme
  * @author Masuta
  * @description Shogun Raiden UI styled theme for BetterDiscord
- * @version 1.1.0
+ * @version 1.2.0
  * @source https://github.com/MasutaK/shogun-discord-theme
  * @website https://github.com/MasutaK/shogun-discord-theme
  */
@@ -46,11 +46,14 @@ body, .theme-dark {
     background-image: var(--shogun-bg) !important;
 }
 
-/* Chat content background */
-.f75fb00fb7356cbe-chatContent {
+/* Major Menu and Chat content background */
+.f75fb00fb7356cbe-chatContent,
+._133bf5eea8e33a34-tabBody, 
+.f369dba7416c67f0-list {
     background-image: 
         linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3)),
         var(--shogun-bg);
+		
 }
 
 /* Members group header */
